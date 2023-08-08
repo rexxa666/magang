@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin:  0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 5px 0;
+	background-color: #7C7C7B;
+}
+.medsos ul li{
+	display : inline-block;
+	color :#fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content:'';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: #7C7C7B;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 20px 10px;
+	display: inline-block;
+}
+.active{
+	background-color: #7C7C7B;
+	color: #fff;
+}
+.banner{
+	height: 80vh;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(124, 124, 123, .4);
+}
+.banner h2{
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid #fff;
+}
+section{
+	padding: 50px 0;
+}
+.fix-img img{
+	width: 100%;
+}
+.gambar{
+	width: 100%;
+	background-color: grey;
+}
+.row{
+	display: flex;
+}
+.col-3{
+	width: 25%;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	background-color: #fff;
+	border-radius: 20px;
+}
+.col-3 button{
+	border-radius: 20px;
+	padding: 10px;
+	background-color: #7C7C7B;
+	color: #fff;
+	width: 100%;
+	margin: 5px 0;
+    border: 0;
+    cursor: pointer;
+}
+.col-3 button:hover{
+	background-color: #2F4F4F;
+}
